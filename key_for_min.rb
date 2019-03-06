@@ -6,11 +6,11 @@ name_hash.each do |name, number|
   if number < nu_number
     two_number = number
   if number < two_number
-    small_hash << number
+    cool_number = number
 end
 end
 end
-small_hash
+cool_number
 end
 nil
 end
