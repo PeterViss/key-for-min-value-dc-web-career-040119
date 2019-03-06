@@ -9,5 +9,5 @@ name_hash.each do |name, number|
     cool_number = number
 end
 end
-cool_number
+
 end
