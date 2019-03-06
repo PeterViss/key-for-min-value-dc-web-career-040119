@@ -3,14 +3,14 @@ small_hash = {}
 name_hash.each do |name, number|
   if number < 10000
     nu_number = number
-  if number < nu_number 
-    two_number = number 
+  if number < nu_number
+    two_number = number
   if number < two_number
-    small_hash << number 
-end 
-end 
-end 
+    small_hash << number
+end
+end
+end
 small_hash
-end 
+end
 nil
-end 	
+end
