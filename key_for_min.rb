@@ -1,18 +1,12 @@
+
 def key_for_min_value(name_hash)
-  if name_hash.empty?
-    return nil
-  end
-  val_arr = name_hash.collect {|k, v| v}
-  key_arr = name_hash.collect {|k, v| k}
-  low_val = val_arr[0]
-  low_key = key_arr[0]
-  name_hash.each do |k, v|
-    if v < low_val
-      low_val = v
-      low_key = k
+name_hash.collect do |name, number|
+    first_arr = name
+    sec_arr = number
+
+    if number < first_arr[0]
+      first_arr = name
+      sec_arr = number
     end
   end
-  return low_key
-
-
- end 	
+end
